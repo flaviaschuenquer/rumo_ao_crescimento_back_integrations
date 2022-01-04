@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.rumoaocrescimento.integrations.dto.EmailDTO;
 import com.rumoaocrescimento.integrations.services.EmailService;
 
+
 @RestController
 @RequestMapping(value = "/emails")
 public class EmailResource {
